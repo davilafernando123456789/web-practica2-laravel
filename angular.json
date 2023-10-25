@@ -25,9 +25,28 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+            "src/vendor/fontawesome/css/font-awesome.css",
+            "src/vendor/animate.css/animate.css",
+            "src/vendor/bootstrap/css/bootstrap.css",
+            "src/vendor/toastr/toastr.min.css",
+            "src/styles/pe-icons/pe-icon-7-stroke.css",
+            "src/styles/pe-icons/helper.css",
+            "src/styles/stroke-icons/style.css",
+            "src/styles/style.css"
             ],
-            "scripts": []
+            "scripts": [
+
+            "src/vendor/pacejs/pace.min.js",
+            "src/vendor/jquery/dist/jquery.min.js",
+            "src/vendor/bootstrap/js/bootstrap.min.js",
+            "src/vendor/toastr/toastr.min.js",
+            "src/vendor/sparkline/index.js",
+            "src/vendor/flot/jquery.flot.min.js",
+            "src/vendor/flot/jquery.flot.resize.min.js",
+            "src/vendor/flot/jquery.flot.spline.js",
+            "src/scripts/luna.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -94,5 +113,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "fef29c90-16d9-41e0-a854-3a8c2e67fe9e"
   }
 }
